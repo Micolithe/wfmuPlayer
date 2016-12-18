@@ -31,7 +31,9 @@ wfmuWindow::wfmuWindow(QWidget *parent) :
     ui(new Ui::wfmuWindow)
 {
     ui->setupUi(this);
+
     this->setWindowTitle("WFMU Audio Player");
+    this->setWindowIcon(QIcon(":/wfmu_ICON.ico"));
     player->setVolume(50); //start at half volume
 
 }

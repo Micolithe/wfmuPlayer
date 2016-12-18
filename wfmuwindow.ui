@@ -35,8 +35,15 @@
    <string>wfmuWindow</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <normaloff>../Downloads/org.wfmu.radio-w250.png</normaloff>../Downloads/org.wfmu.radio-w250.png</iconset>
+   <iconset resource="resources.qrc">
+    <normaloff>:/wfmu_ICON.png</normaloff>
+    <normalon>:/wfmu_ICON.png</normalon>
+    <disabledoff>:/wfmu_ICON.png</disabledoff>
+    <disabledon>:/wfmu_ICON.png</disabledon>
+    <activeoff>:/wfmu_ICON.png</activeoff>
+    <activeon>:/wfmu_ICON.png</activeon>
+    <selectedoff>:/wfmu_ICON.png</selectedoff>
+    <selectedon>:/wfmu_ICON.png</selectedon>:/wfmu_ICON.png</iconset>
   </property>
   <widget class="QWidget" name="centralWidget">
    <property name="sizePolicy">
@@ -257,6 +264,8 @@
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
  <connections/>
 </ui>

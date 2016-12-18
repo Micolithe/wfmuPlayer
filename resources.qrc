@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>wfmu_ICON.ico</file>
+    </qresource>
+</RCC>
