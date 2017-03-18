@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Resource object code
 **
-** Created by: The Resource Compiler for Qt version 5.7.1
+** Created by: The Resource Compiler for Qt version 5.8.0
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -701,8 +701,10 @@ static const unsigned char qt_resource_name[] = {
 static const unsigned char qt_resource_struct[] = {
   // :
   0x0,0x0,0x0,0x0,0x0,0x2,0x0,0x0,0x0,0x1,0x0,0x0,0x0,0x1,
+0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,
   // :/wfmu_ICON.ico
   0x0,0x0,0x0,0x0,0x0,0x1,0x0,0x0,0x0,0x1,0x0,0x0,0x0,0x0,
+0x0,0x0,0x1,0x59,0x10,0x10,0xc2,0xf2,
 
 };
 
@@ -734,7 +736,7 @@ int QT_RCC_MANGLE_NAMESPACE(qInitResources_resources)();
 int QT_RCC_MANGLE_NAMESPACE(qInitResources_resources)()
 {
     QT_RCC_PREPEND_NAMESPACE(qRegisterResourceData)
-        (0x01, qt_resource_struct, qt_resource_name, qt_resource_data);
+        (0x02, qt_resource_struct, qt_resource_name, qt_resource_data);
     return 1;
 }
 
@@ -742,7 +744,7 @@ int QT_RCC_MANGLE_NAMESPACE(qCleanupResources_resources)();
 int QT_RCC_MANGLE_NAMESPACE(qCleanupResources_resources)()
 {
     QT_RCC_PREPEND_NAMESPACE(qUnregisterResourceData)
-       (0x01, qt_resource_struct, qt_resource_name, qt_resource_data);
+       (0x02, qt_resource_struct, qt_resource_name, qt_resource_data);
     return 1;
 }
 
