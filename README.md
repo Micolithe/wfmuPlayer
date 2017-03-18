@@ -1,7 +1,12 @@
-# wfmuPlayer
-Audio Playback application for WFMU Freeform Radio Station in Jersey City, NJ
-## DOWNLOAD
-WIN64 - https://github.com/Micolithe/wfmuPlayer/releases/tag/v1.0.1
+WFMU PLAYER
+===========
 
-LINUX64 - https://github.com/Micolithe/wfmuPlayer/tree/master/dist/linux64 - 
-Ensure you have the QT5 runtimes installed by running *sudo apt-get install qt5-default* first! - This is mostly untested, as I only have ubuntu on my ancient laptop.
+A GUI application that streams from Jersey City NJ radio station WFMU.
+
+![screenshot - windows 7](http://i.imgur.com/Ocv6BGG.png)
+
+Download
+-------
+**Win32 - [v 1.0.3](https://github.com/Micolithe/wfmuPlayer/releases/tag/v.1.0.3)**
+
+**Linux** - Coming eventually. If you know how to properly compile and package a C++ QT app for Ubuntu, let me know!
